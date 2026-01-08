@@ -66,3 +66,34 @@ button{
 .Win{
     background-color:green;
 }
+.languages{
+    margin-top:2rem;
+    cursor:pointer;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;
+    /* align-items:center; */
+    max-width:30rem;
+}
+.languages span{
+    border: 1px solid gray;
+    padding:0.5rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    border-radius:0.25rem;
+}
+.languages span:hover{
+    background-color: gray;
+}
+.userword{
+    margin-top:2rem;
+    gap:1rem;
+}
+.userword span{
+    display: inline-block;
+    font-size:2rem;
+    padding:1rem;
+    background-color: rgb(23, 19, 19);
+    border:black 3px solid;
+    border-bottom:white 1px solid;
+}
