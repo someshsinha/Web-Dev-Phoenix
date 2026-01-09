@@ -1,6 +1,6 @@
 function Farewell(props){
     return (
-        <button className="Farewell">
+        <button className="Status" style={{backgroundColor: 'blue'}}>
             <p>"Farewell {props.language} 🫡"</p>
         </button>
     )

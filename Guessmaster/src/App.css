@@ -34,7 +34,7 @@ Body {
     align-items: center;
     text-align: center;
     max-width: 30rem;
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 .Header h1 {
     padding-bottom: 1rem;
@@ -44,7 +44,7 @@ Body {
     font-size: 1.125rem;
     color:gray;
 }
-button{
+.Status{
     padding-left:6rem;
     padding-right:6rem;
     padding-top:1rem;
@@ -57,7 +57,7 @@ button{
     color:white;
     line-height:1.75rem;
 }
-.Loose{
+/* .Status{
     background-color: red;
 }
 .Farewell{
@@ -66,7 +66,8 @@ button{
 .Win{
     background-color:green;
 }
-.languages{
+    */
+.languages{ 
     margin-top:2rem;
     cursor:pointer;
     flex-direction: row;
@@ -96,4 +97,33 @@ button{
     background-color: rgb(23, 19, 19);
     border:black 3px solid;
     border-bottom:white 1px solid;
+}
+.keyboard{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:0.75rem;
+    gap:1.5rem;
+    padding-top:2rem;
+    padding-left:15rem;
+    padding-right:15rem;
+}
+.keyboard button{
+    font-size:2rem;
+    padding:1rem;
+    min-height:5rem;
+    color:black;
+    min-width:5rem;
+    border-radius:0.75rem;
+    border:white 2px solid;
+    background-color:rgb(224, 142, 10);
+}
+.NewGame{
+    color:black;
+    background-color:rgb(44, 203, 243);
+    border-color:white;
+    font-size:1.5rem;
+    padding:1rem;
+    margin-top:2rem;
+    border-radius:0.75rem;
 }
