@@ -1,0 +1,79 @@
+/* Container for the whole page */
+body{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: white;
+    font-family: sans-serif;
+}
+.signup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+/* The form wrapper */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Space between items */
+  width: 100%;
+  max-width: 320px;
+  margin-bottom:2rem;
+}
+
+/* Labels */
+input{
+  display: flex;
+  flex-direction: column;
+  padding:0.5rem;
+  font-size: 1.25rem;
+  color: #9ca3af; /* Light gray */
+  border-radius: 0.25rem;
+}
+
+span{
+    font-size: 1.5rem;
+    color: #6b7280; /* Gray */      
+}
+
+button{
+    margin:2rem;
+    padding:1rem;
+    background-color:#3b82f6;
+    font-size:1.25rem;
+    font-weight:bold;
+    color:white;
+    border:none;
+    border-radius:0.25rem;
+    cursor:pointer;
+}
+.login-link{
+    color:#9485a7;
+    font-size:1.25rem;
+    text-decoration:none;   
+    text-decoration: underline;
+}
+.profile{
+    font-size: 2rem;
+    color: white;
+    font-family: sans-serif;
+    background-color:black;
+    height:100vh;  
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.id{
+    font-size:2rem;
+    background-color:yellow;
+}
