@@ -1,5 +1,7 @@
 export default function HomePage(){
     return (
-        <h1>Alhabibi welcome to dubai</h1>
+        <div className="Intro">
+        <h1>Wallah habibi</h1>
+        </div>
     )
 }

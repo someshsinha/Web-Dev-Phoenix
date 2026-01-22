@@ -1,0 +1,6 @@
+/*
+here we will receive the login request int the form of email and password 
+from the user and then we will check if the user existe in the database
+and if exists then we will compare the password with the hashed password
+and then we will send the response back to the user
+*/
